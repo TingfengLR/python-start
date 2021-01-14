@@ -1,0 +1,6 @@
+# A program of buy apple
+price = float(input('\033[32mPlease input the price of apple: \033[0m'))
+
+weight = float(input('\033[32mPlease input the weight of apples: \033[0m'))
+
+print('\033[33mRecent price of apple is %.02f, Your apples weight is %.02f, The amount of apples is %.02f \033[0m' % (price, weight, price * weight))
